@@ -14,7 +14,7 @@
   - How to install Twisted on Ubuntu
     - Use to case your terminal is ZSH
       - ```
-          exec bash -- or add on .zsh the PATH
+          exec bash -- or add PATH on .zsh
         ```
     - ```
       sudo apt install python3-twisted
@@ -24,14 +24,14 @@
     ```
     twistd3 -n ftp
     
-    ## Checked on terminal is a open FTP server and FTPFactory is information the port
+    ## Check on terminal is opened FTP server and FTPFactory createad a port
 
     2023-01-22T13:09:21-0300 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 18.9.0 (/usr/bin/python3 3.8.10) starting up.
     2023-01-22T13:09:21-0300 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
     2023-01-22T13:09:21-0300 [-] FTPFactory starting on 2121 ## Port
     2023-01-22T13:09:21-0300 [twisted.protocols.ftp.FTPFactory#info] Starting factory <twisted.protocols.ftp.FTPFactory object at 0x7f55daed2e20>
     
-    ## Case closed
+    ## FTP Server is closed
     2023-01-22T13:09:45-0300 [-] Received SIGINT, shutting down.
     2023-01-22T13:09:45-0300 [-] (TCP Port 2121 Closed)
     2023-01-22T13:09:45-0300 [twisted.protocols.ftp.FTPFactory#info] Stopping factory <twisted.protocols.ftp.FTPFactory object at 0x7f55daed2e20>
