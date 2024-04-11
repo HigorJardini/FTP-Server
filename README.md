@@ -1,8 +1,15 @@
 ## Simple FTP Server in Python3
+  <div align="center">
+    <img src="https://i.imgur.com/ic5re50.png" width="60px">
+  </div>
   
   <p align="center" width="100%">
        <img src="https://i.imgur.com/TskTw6r.png">
   </p>
+
+  <div align="center">
+    <img src="https://i.imgur.com/ic5re50.png" width="60px">
+  </div>
 
   - Requirements
     - Python3
